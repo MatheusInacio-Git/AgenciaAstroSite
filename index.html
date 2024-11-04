@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/resets.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/imgs/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/imgs/favicon_io/favicon-16x16.png">
+    <link rel="icon" href="imgs/favicon_io/android-chrome-512x512.png" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;800&display=swap" rel="stylesheet">
+
+    <script defer src="js/app.js" ></script>
+    <title>Agência Astro - Desenvolvimento Web </title>
+</head>
+
+<body>
+    <a href="https://wa.me/+5551999479392?text=Oi,%20vim%20pelo%20site%20da%20agência" class="wpp-link" target="_blank">
+        <i class="fab fa-whatsapp"></i> 
+    </a>
+
+    <div class="d-flex justify-content-center align-items-center">
+
+        <div class="imgnav mx-5"><img src="imgs/logobranca.png" height="20"></div>
+        <nav class="nav">
+            <a role="button" class="navbar-burger mx-5" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </nav>
+
+    </div>
+
+    <script>
+        var btn = document.getElementsByClassName("navbar-burger")[0];
+        
+        btn.addEventListener("click", function(){
+            btn.classList.toggle("open")
+        });
+    </script>
+    
+    <div id="menu" class="menu">
+        <ul>
+            <li><a href="#container2">Nossos serviços</a></li>
+            <li><a href="#faq">Perguntas frequentes</a></li>
+            <li><a href="portfolio/index.html">Portfólio</a></li>
+            <li><a href="#contato">Fale com a gente!</a></li>
+        </ul>
+    </div>
+
+    <section>
+
+        <div class="container-fluid position-relative p-0 d-flex align-items-center justify-content-center" style="height: 100vh;">
+
+            <div class="videobg">
+                <video src="imgs/background.mp4" autoplay muted loop playsinline class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover;"></video>
+            </div>
+        
+            <div class="d-flex justify-content-center align-items-center text-center position-absolute" style="margin-top: -15%;">
+                <div class="txt-section">
+                    <h1 class="bold">Site moderno?<br>É só na <span>Astro</span></h1>
+                    <p class="subir">Coloque o seu negócio no <strong>mapa</strong> da internet com a nossa ajuda!</p>
+                </div>
+        
+                <div class="scroll-down3">
+                    <a href="#sobre"><i class="fa fa-angle-down" style="font-size: 2rem; color: white;"></i></a>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <div class="container mt-5 sobre" id="sobre">
+        <div class="row">
+            <div class="col-md-6 txt2">
+                <h4 class="font-weight-bold">Sobre Nós</h4>
+                <h1 class="bold"><span>Serviços</span></h1>
+            </div>
+    
+            <div class="col-md-6">
+                <p class=" limit-text">Somos uma agência moderna dedicada a ajudar empreendedores a <strong><span>aumentar o capital</span></strong> de seus negócios por meio da internet. Nossa missão é clara: colaborar na expansão do seu negócio, criando projetos que impactam positivamente.</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container mt-5">
+
+        <div class="row mb-4">
+            <!-- Card 1: Criação de sites (largura total em PC) -->
+            <div class="col-12">
+                <div class="card p-5 container">
+                    <h1 class="bold">Criação de sites</h1>
+                    <p>Do blog ao e-commerce, construímos sites que conectam, informam, vendem e convertem!</p>
+                    <a href="portfolio/index.html" target="_blank">Ver Sites</a>
+                </div>
+            </div>
+    </div>
+
+    <div class="row">
+        <!-- Card 2: Identidade Visual (metade da tela no PC) -->
+        <div class="col-6 col-md-6 col-lg-3 mb-4">
+            <div class="card p-4">
+                <h3 class="bold">Identidade Visual</h3>
+                <p>Criamos a essência do seu negócio, reforçamos sua marca</p>
+                <a href="https://www.behance.net/agenciaastro" target="_blank" class="btn-card">Exemplos</a>
+            </div>
+        </div>
+
+        <!-- Card 3: Manutenção de sites (metade da tela no PC) -->
+        <div class="col-6 col-md-6 col-lg-3 mb-4">
+            <div class="card p-4">
+                <h3 class="bold">Manutenção de sites</h3>
+                <p>Modificamos sites já existentes</p>
+                <a href="https://wa.me/+5551999479392?text=Oi,%20já%20tenho%20um%20site%20e%20quero%20reformá-lo." target="_blank">Orçamento</a>
+            </div>
+        </div>
+
+        <!-- Card 4: LojaWeb (maior, ocupando o espaço restante no PC) -->
+        <div class="col-12 col-lg-6 mb-4">
+            <div class="card p-4">
+                <h3 class="bold">LojaWeb: Facilitando Vendas Online via WhatsApp</h3>
+                <p>Facilitamos e agilizamos o atendimento da sua loja</p>
+                <div class="d-flex">
+                    <a href="prices/prices.html">Preços</a>
+                    <a class="ex mx-3" href="./pdfs/LojaWeb.pdf" target="_blank">Entender Mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="mt-5 p-4 bg-black">
+        <div class="container sobre" id="sobre">
+            <div class="row align-items-center">
+
+                <div class="col-md-4 txt2 d-flex justify-content-start">
+                    <div>
+                        <h4 class="font-weight-bold" style="color: white;">Você</h4>
+                        <h1 class="bold" style="color: white;"><span>Sabia?</span></h1>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 d-flex justify-content-center">
+                    <i class="fa-solid fa-arrow-right" style="color: white; font-size: 48px;"></i>
+                </div>
+
+                <div class="col-md-4 d-flex flex-column align-items-end align-items-md-start" id="progress-container">
+                    <h1 id="progress" class="bold" style="font-size: 72px; color: white;">0%</h1>
+                    <p class="text-right text-md-left" style="font-size: 16px; color: white;">
+                        dos usuários tendem a deixar o seu site rapidamente se o design não for agradável.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5 p-5 m-3" id="faq">
+        <div class="faq col-md-9">
+            <div class="faq-item">
+                <div class="faq-question"><span>Pergunta 1:</span> Como vocês vão aumentar a receita do meu negócio?</div>
+                <div class="faq-answer">Aumentando sua presença online, te colocando no mapa da internet e trazendo mais clientes para o seu negócio.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question"><span>Pergunta 2:</span> Meu site vai aparecer no Google?</div>
+                <div class="faq-answer">Sim, seu site pode aparecer no Google, e estamos aqui para ajudá-lo a garantir a visibilidade online por meio de estratégias de otimização e design eficazes.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question"><span>Pergunta 3:</span> Quanto tempo leva para criar um site?</div>
+                <div class="faq-answer">Criamos landing pages em até 30 dias úteis. Se for um site mais completo, informaremos durante o processo de orçamento.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question"><span>Pergunta 4:</span> Vocês criam apenas sites?</div>
+                <div class="faq-answer">Não, temos uma equipe especializada em criação de site, desenvolvimento de identidade visual, gestão de trafego, entre outras estratégias de marketing. Temos as qualificações necessárias para potencializar sua empresa.</div>
+            </div>
+        </div>
+
+        <script src="./js/faq.js"></script>
+    </div>
+
+    <div class="container9 mt-5" id="contato">
+
+        <img src="imgs/main5.png" alt="Imagem de contato principal">
+
+        <div class="mainform">
+
+            <div ><h2 class="bold p-3">Pronto para inserir sua empresa no ambiente digital?</h2></div>
+            <div class="mt-3"><h5><span>Preencha o formulário e fale conosco!</span></h5></div>
+
+            <form action="https://formsubmit.co/operacionalagenciastro@gmail.com" method="post" class="form">
+                <div class="input-group">
+                    <input type="text" name="first_name" id="first-name" placeholder="First name" required>
+                    <label for="first-name">Seu primeiro nome:</label>
+                </div>
+                
+                <div class="input-group">
+                    <input type="text" name="last_name" id="last-name" placeholder="Last Name">
+                    <label for="last-name">Seu sobrenome:</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" name="email" id="e-mail" placeholder="e-mail" required> 
+                    <label for="e-mail">Seu e-mail:</label>
+                </div>
+
+                <div class="textarea-group">
+                    <textarea name="message" id="message" rows="5" placeholder="Message" required></textarea>
+                    <label for="message">Sua mensagem:</label>
+                </div>
+
+                <div class="button-div">
+                    <button type="submit">ENVIAR</button>
+                </div>
+
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+    </div>
+
+<footer class="footer bg-dark text-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <h4 class="text">Contatos da Agência</h4>
+                <ul class="list-unstyled">
+                    <li><a href="https://wa.me/+5551999479392" target="_blank" class="text-muted">Guilherme</a></li>
+                    <li><a href="https://wa.me/+555185527551" target="_blank" class="text-muted">Henrique</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 mb-3">
+                <h4 class="text">Redes</h4>
+                <div class="d-flex gap-3">
+                    <a href="https://www.behance.net/agenciaastro" target="_blank" class="social-link"><i class="fab fa-behance"></i></a>
+                    <a href="https://www.instagram.com/agenciastroweb/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

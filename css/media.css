@@ -1,0 +1,491 @@
+/* Retrato */
+@media only screen 
+and (orientation : portrait) {
+    /* Estilos específicos para dispositivos em modo retrato */
+    
+    
+}
+
+/* Laptops e Desktops */
+@media only screen 
+and (min-width : 1224px) and (max-width : 1645px) {
+
+    .container7 {
+        height: 40vh !important;
+    }
+
+    .container3 {
+        height: 55vh !important;
+    }
+
+    .card:nth-child(1).card h3 {
+        font-size: 2em !important;
+    }
+
+    .container9 img {
+        width: 450px;
+    }
+}
+
+
+/* Telas grandes */
+@media only screen 
+and (min-width : 1645px) {
+    /* Estilos para dispositivos com telas maiores que 1824px */
+    .container7 {
+        height: 35vh !important;
+
+    }
+}
+
+
+@media only screen 
+and (min-width : 200px) 
+and (max-width : 320px) {
+
+    .container9 img {
+        display: none;
+    }
+
+    .container4 {
+        grid-template-columns: 1fr 1fr 1fr !important;
+        grid-template-rows: 1fr 1fr 0.5fr !important;
+    }
+    .p-txt4 {
+        grid-column: 2 !important;
+        grid-row: 2 !important;
+    }
+    
+    .txt4 {
+        grid-row: 1 !important;
+        grid-column: 2 !important;
+    }
+
+    .arrow {
+        display: none !important;
+    }
+
+    footer {
+        height: 76vh !important;
+    }
+
+    .container3 {
+        height: 100vh !important;
+    }
+
+    .container2 {
+        grid-template-columns: 1fr  1fr 1fr !important;
+        grid-template-rows: 0.3fr 1fr 1fr !important;
+    }
+
+    .p-txt2 {
+        grid-column: 2 !important;
+        grid-row: 3 !important;
+        font-size: 0.9em !important;
+    }  
+
+    .txt4 {
+        font-size: 0.5em !important;
+    }
+
+    .p-txt4 {
+        font-size: 0.9em !important;
+    }
+
+    .card p {
+        font-size: 0.8em !important;
+    }
+
+    .txt2 {
+        grid-row: 2 !important;
+    }
+    
+    .container5 {
+        height: 125vh !important;
+    }
+
+    .container7 {
+        height: 90vh !important;
+    }
+
+    .faq {
+        font-size: 0.7em !important;
+        width: 100% !important;
+    }
+
+    .container9 {
+        height: 100vh !important;
+    }
+
+    .title {
+        font-size: 30px !important;
+    }
+
+}
+
+
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+    /*NAO TIRAR*/
+    .txt-section h1 {
+        font-size: 3.3em !important;
+        margin-top: -25% !important;
+    }
+    
+    
+    .txt-section p {
+        font-size: 1em !important;
+        margin: 0 25px;
+    }
+
+    .sobre {
+        padding: 5% 5% !important;
+        margin: 0  !important;
+    }
+
+    .card2, .card3 {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .limit-text {
+        padding: 0 !important;
+    }
+
+    .card a {
+        max-width: 150px !important;
+    }
+    /*NAO TIRAR*/
+    
+    #progress-container {
+        flex-direction: row !important;
+        justify-content: flex-start !important;
+        text-align: left;
+    }
+
+    .text-right {
+        text-align: left !important;
+        margin-left: 10%;
+    }
+
+    #progress {
+        text-align: left;
+    }
+
+    .fa-arrow-right {
+        display: none !important;
+    }
+
+    input, .textarea-group{
+        width: 300px !important;
+    }
+
+    .container9 img {
+        display: none;
+    }
+    
+    .title {
+        font-size: 30px !important;
+    }
+
+
+    .container4 {
+        grid-template-columns: 1fr 1fr 1fr !important;
+        grid-template-rows: 1fr 1fr 0.3fr !important;
+    }
+    .p-txt4 {
+        grid-column: 2 !important;
+        grid-row: 2 !important;
+    }
+    
+    .txt4 {
+        grid-row: 1 !important;
+        grid-column: 2 !important;
+        margin-top: 36px;
+    }
+
+    .arrow {
+        display: none !important;
+    }
+
+    footer {
+        height: 56vh !important;
+    }
+    .container7 {
+        height: 80vh !important;
+    }
+
+    .container9 {
+        height: 100vh !important;
+    }
+
+    .faq {
+        font-size: 0.7em !important;
+        width: 100% !important;
+    }
+
+
+    .txt4 {
+        font-size: 0.7em !important;
+    }
+
+    .p-txt4 {
+        font-size: 0.9em !important;
+    }
+
+
+    .txt2 {
+        grid-row: 2 !important;
+    }
+
+    .container5 {
+        height: 125vh !important;
+    }
+
+}
+/**/
+
+@media only screen 
+and (min-width:480px) and (max-width:768px){
+    
+    footer {
+        height: 40vh !important;
+    }
+
+    .container9 img {
+        display: none;
+    }
+
+    .container9 {
+        height: 90vh !important;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .container3 {
+        height: 90vh !important;
+        width: 100% !important;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr !important;
+        grid-template-rows: 1fr 1fr 1fr !important;
+        gap: 15px;
+        
+    }
+
+    .card:nth-child(4) {
+        grid-column: 2 / 4 !important;
+        grid-row: 3 !important;
+    }
+
+    .card:nth-child(1) {
+        grid-column: 2 / 4 !important;
+        grid-row: 1 !important;
+        width: 90% !important;
+    }
+
+    .card:nth-child(3) {
+        width: 230px;
+    }
+
+    .card:nth-child(2) {
+        width: 230px;
+    }
+
+    .card:nth-child(1).card h3 {
+        font-size: 2em !important;
+    }
+
+    .card:nth-child(1).card p {
+        font-size: 0.7em !important;
+    }
+    
+    .container2 {
+        grid-template-columns: 1fr  1fr 1fr !important;
+        grid-template-rows: 0.3fr 1fr 1fr !important;
+    }
+
+    .p-txt2 {
+        grid-column: 2 !important;
+        grid-row: 3 !important;
+    }
+
+    .txt2 {
+        grid-row: 2 !important;
+    }
+
+    .container5 {
+        height: 125vh !important;
+    }
+
+    .container4 {
+        grid-template-columns: 1fr  1fr 1fr !important;
+        grid-template-rows: 0.3fr 1fr 1fr !important;
+    }
+    .p-txt4 {
+        grid-column: 2 !important;
+        grid-row: 3 !important;
+    }
+    
+    .txt4 {
+        grid-row: 2 !important;
+    }
+    
+
+    .arrow {
+        display: none !important;
+    }
+}
+
+
+
+/* Tablets, iPads (retrato e paisagem) */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+    /* Estilos para tablets e iPads entre 768px e 1024px */
+
+    .container3 {
+        height: 60vh !important;
+    }
+
+    .card:nth-child(2){
+        width: 220px !important;
+    }
+    
+    .card:nth-child(3){
+        width: 220px !important;
+    }
+    
+    .card:nth-child(1).card h3 {
+        font-size: 2em !important;
+    }
+    
+    .card:nth-child(1).card p {
+        font-size: 0.8em !important;
+    }
+    
+    .card:nth-child(4).card p {
+        font-size: 0.7em !important;
+    }
+    
+    .container5 {
+        height: 90vh !important;
+    }
+    
+    .container9 img {
+        display: none;
+    }
+}
+
+
+
+@media only screen 
+and (min-width : 1024px) and (max-width : 1224px) {
+    
+    .container3 {
+        height: 60vh !important;
+    }
+
+    .card:nth-child(1).card h3 {
+        font-size: 2em !important;
+    }
+
+    .card:nth-child(4).card p {
+        font-size: 0.7em !important;
+    }
+
+    
+    .container9 img {
+        width: 350px;
+    }
+
+}
+
+@media (max-height: 760px) {
+    /* Estilos que serão aplicados apenas em dispositivos com altura de tela menor que 700px */
+    /* Por exemplo: */
+    .container3 {
+        height: 130vh !important;
+    }
+
+    /* Estilos gerais já aplicados diretamente no HTML do container #voce-sabia */
+    
+    @media (max-width: 1200px) {
+        /* Ajustes para telas de tamanho médio (tablets) dentro do container #voce-sabia */
+        #voce-sabia h4.bold {
+            font-size: 28px; /* "Você" com 28px */
+        }
+        #voce-sabia h1.bold {
+            font-size: 60px; /* "Sabia?" e "0%" com 60px */
+        }
+        #voce-sabia i.fa-arrow-right {
+            width: 64px;
+            height: 80px;
+            font-size: 80px; /* Seta menor */
+        }
+        #voce-sabia p {
+            font-size: 14px; /* Texto descritivo menor */
+        }
+    }
+    
+    @media (max-width: 768px) {
+        /* Ajustes para telas pequenas (celulares) dentro do container #voce-sabia */
+        #voce-sabia h4.bold {
+            font-size: 24px; /* "Você" com 24px */
+        }
+        #voce-sabia h1.bold {
+            font-size: 48px; /* "Sabia?" e "0%" com 48px */
+        }
+        #voce-sabia i.fa-arrow-right {
+            display: none; /* Oculta a seta */
+        }
+        #voce-sabia p {
+            font-size: 12px; /* Texto descritivo menor */
+        }
+    
+        /* Empilhando colunas no celular */
+        #voce-sabia .row.h-100 {
+            flex-direction: column;
+            text-align: center; /* Centraliza todo o conteúdo no celular */
+        }
+        #voce-sabia .col-4 {
+            width: 100%; /* Cada coluna ocupa a largura total */
+            margin-bottom: 1rem; /* Espaço entre os textos empilhados */
+        }
+    }
+    
+    @media (max-width: 414px) and (max-height: 896px) {
+        /* Ajustes específicos para telas de 414x896 (como o iPhone X/11 Pro) dentro do container #voce-sabia */
+        #voce-sabia h4.bold {
+            font-size: 20px; /* "Você" com 20px */
+        }
+        #voce-sabia h1.bold {
+            font-size: 40px; /* "Sabia?" e "0%" com 40px */
+        }
+        #voce-sabia .fa-arrow-right {
+            display: none; /* Oculta a seta */
+        }
+        #voce-sabia p {
+            font-size: 11px; /* Texto descritivo menor */
+        }
+    
+        /* Empilhando colunas para a tela de 414x896 */
+        #voce-sabia .row.h-100 {
+            flex-direction: column;
+            text-align: center; /* Centraliza todo o conteúdo */
+        }
+        #voce-sabia .col-4 {
+            width: 100%; /* Colunas ocupando largura total */
+            margin-bottom: 1rem; /* Espaço entre os textos empilhados */
+        }
+    }
+    
+    
+}
